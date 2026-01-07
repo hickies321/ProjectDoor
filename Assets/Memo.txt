@@ -1,0 +1,30 @@
+임포트한 에셋 종류 아래 메모
+--------------------------------------------------------
+Dotween (에셋스토어)
+Assets\Plugins\Demigiant
+--------------------------------------------------------
+Fullscreen Editor (에셋스토어)
+Packages\com.mibdev.fullscreen-editor
+--------------------------------------------------------
+vInspector 2 (에셋스토어)
+-
+--------------------------------------------------------
+Text Animator for Unity (에셋스토어)
+Assets\Plugins\Febucci\
+--------------------------------------------------------
+Probuilder (패키지매니저)
+-
+--------------------------------------------------------
+Starter Assets - FirstPerson (에셋스토어)
+StarterAssets\Evironment
+StarterAssets\FirstPersonController
+StarterAssets\InputSystem
+StarterAssets\Mobile
+StarterAssets\Settings
+StarterAssets\Tutoroallnfo
+--------------------------------------------------------
+Retro Shaders Pro for URP (에셋스토어)
+Assets\Retro Shaders Pro
+--------------------------------------------------------
+Procedural Generation Grid (Beta)
+Assets\FImpossible Creations
