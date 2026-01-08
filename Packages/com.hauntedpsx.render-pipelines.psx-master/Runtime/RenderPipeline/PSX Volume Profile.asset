@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8575864556152414695
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad71758d66b75b45a6157133f3e6024, type: 3}
+  m_Name: AccumulationMotionBlurVolume
+  m_EditorClassIdentifier: com.hauntedpsx.render-pipelines.psx.Runtime::HauntedPSX.RenderPipelines.PSX.Runtime.AccumulationMotionBlurVolume
+  active: 1
+  weight:
+    m_OverrideState: 1
+    m_Value: 0
+  vignette:
+    m_OverrideState: 1
+    m_Value: 0
+  dither:
+    m_OverrideState: 1
+    m_Value: 1
+  zoom:
+    m_OverrideState: 1
+    m_Value: 0
+  zoomDither:
+    m_OverrideState: 1
+    m_Value: 0
+  anisotropy:
+    m_OverrideState: 1
+    m_Value: 0
+  applyToUIOverlay:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: PSX Volume Profile
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.VolumeProfile
+  components:
+  - {fileID: 8184264336748081122}
+  - {fileID: 4515331441744216163}
+  - {fileID: -8575864556152414695}
+--- !u!114 &4515331441744216163
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd3a97acc7ef644da680b9eb611919e, type: 3}
+  m_Name: CathodeRayTubeVolume
+  m_EditorClassIdentifier: com.hauntedpsx.render-pipelines.psx.Runtime::HauntedPSX.RenderPipelines.PSX.Runtime.CathodeRayTubeVolume
+  active: 1
+  isEnabled:
+    m_OverrideState: 1
+    m_Value: 0
+  bloom:
+    m_OverrideState: 1
+    m_Value: 0
+  grateMaskMode:
+    m_OverrideState: 0
+    m_Value: 0
+  grateMaskTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  grateMaskScale:
+    m_OverrideState: 0
+    m_Value: 1
+  scanlineSharpness:
+    m_OverrideState: 1
+    m_Value: 0.5
+  imageSharpness:
+    m_OverrideState: 1
+    m_Value: 0.5
+  bloomSharpnessX:
+    m_OverrideState: 1
+    m_Value: 0
+  bloomSharpnessY:
+    m_OverrideState: 1
+    m_Value: 0
+  noiseIntensity:
+    m_OverrideState: 1
+    m_Value: 0
+  noiseSaturation:
+    m_OverrideState: 1
+    m_Value: 1
+  grateMaskIntensityMin:
+    m_OverrideState: 1
+    m_Value: 0.25
+  grateMaskIntensityMax:
+    m_OverrideState: 1
+    m_Value: 0.75
+  barrelDistortionX:
+    m_OverrideState: 1
+    m_Value: 0
+  barrelDistortionY:
+    m_OverrideState: 1
+    m_Value: 0
+  vignette:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &8184264336748081122
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f7b4b43d392da4aa0edc7aa47211ca, type: 3}
+  m_Name: QualityOverrideVolume
+  m_EditorClassIdentifier: com.hauntedpsx.render-pipelines.psx.Runtime::HauntedPSX.RenderPipelines.PSX.Runtime.QualityOverrideVolume
+  active: 1
+  isPSXQualityEnabled:
+    m_OverrideState: 1
+    m_Value: 1

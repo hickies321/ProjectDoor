@@ -4,6 +4,8 @@
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="Febucci.TextAnimatorForUnity.TMP.Runtime.csproj" />
+  <Project Path="com.hauntedpsx.render-pipelines.psx.Runtime.csproj" />
+  <Project Path="com.hauntedpsx.render-pipelines.psx.Editor.csproj" />
   <Project Path="Assembly-CSharp-firstpass.csproj" />
   <Project Path="Febucci.TextAnimator.Demo.Runtime.csproj" />
   <Project Path="VInspector.csproj" />
